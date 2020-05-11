@@ -1,15 +1,13 @@
 # Etcetera
 
-Apple platform utilities I need on almost every project but which, individually, are too small to exist on their own.
+This is a fork from Jared Sinclair's [Etcetera](https://github.com/jaredsinclair/etcetera) repo.
+
+Within my fork I have changed it a bit to suit my needs, though his version could be more complete.
 
 ## So What
 
 Etcetera is a mish-mash of extensions and utility classes. Every file in this repository is (mostly) intended to stand on its own, requiring nothing except some first-party Apple frameworks.
 
-## Usage
-
-Swift Package Manager is the _de rigeur_ solution these days. Adding a Swift package to an Xcode project is absurdly easy. I don't use Cocoapods or Carthage, and I have no interest in adding support for them.
-
 ## Acknowledgements
 
-- The `Activity` approach to the `os_activity` wrapper is based on work by [Zach Waldowski](https://gist.github.com/zwaldowski/49f61292757f86d7d036a529f2d04f0c).
+[Jared Sinclair](https://github.com/jaredsinclair/etcetera)
